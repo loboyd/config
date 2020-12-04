@@ -32,3 +32,7 @@ map <ScrollWheelDown> <C-E>
 
 " set colors
 colo elflord
+
+" make highlighted text searchable
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
