@@ -20,7 +20,7 @@ set shiftwidth=4
 set showmatch
 
 " lower bound of 81 makes column 80 included in the ``allowed`` range
-let &colorcolumn=join(range(81,999),",")
+let &colorcolumn=join(range(101,101),",")
 
 " set background color to something which is almost not shit
 set t_Co=240
